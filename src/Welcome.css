@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rowdies&display=swap');
+.tree {
+    background-image: url("welcome.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height based on your design */
+  }
+  
+  .tree {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  .container {
+    text-align: left; /* Align text to the left within the container */
+  }
+
+
+  .display-4{
+    font-size: 80px;
+    
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 1); /* Very dark shadow */
+  }
+  .lead{
+    font-size: 30px;
+    
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 1); /* Very dark shadow */
+  }
+
+
+  h1 {
+
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Rowdies', sans-serif;
+  }
+  p{    color: white;
+    margin-bottom: 20px;
+    font-family: 'Rowdies', sans-serif;
+  }
+  /* Adjust styles for buttons */
+  .btn {
+    margin-top: 10px; /* Add margin to the top of the buttons */
+  }
+  
+
+  @media screen and (max-width: 767px) {
+    .display-4{
+      font-size: 35px;
+    }
+    .lead{
+      font-size: 20px;
+    }
+  }
+
+
+/* Style for the Doctor button */
+.btn-doctor {
+  
+  background-color: rgba(0, 107, 0, 0.897);
+  color:white;
+  font-weight: bolder;
+  padding: 15px;
+  border: 2px solid white; /* White border for Doctor button */
+}
+
+/* Style for the Patient button */
+.btn-patient {
+  background-color: rgba(0, 107, 0, 0.897);
+  color:white;
+  font-weight: bolder;
+  padding: 15px;
+  border: 2px solid white; /* White border for Doctor button */
+}
+
+
+/* Hover effect for all buttons */
+.btn-doctor:hover {
+  background-color:transparent ;
+  border: 2px solid #fff; /* White border for Patient button */
+  color: #fff;
+}
+.btn-patient:hover {
+  background-color:transparent;
+  border: 2px solid #fff; /* White border for Patient button */
+  color: #fff;
+}
+

@@ -1,0 +1,354 @@
+.top, .sectop {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.back {
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+.profile-container p {
+  color: #3498db; /* Change this color to your preferred color */
+
+}
+.left-box {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.book{
+  background-color: blue;
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.book:hover{
+  background-color: rgb(57, 57, 238);
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: rgb(90, 90, 236);
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: blue;
+  color: #fff;
+}
+
+.right-box {
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.right-box img {
+  border-radius: 8px;
+}
+
+.readmore {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.readmore:hover {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.patient-dashboard-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-box,
+.right-box {
+  width: 45%;
+  padding: 20px;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .patient-dashboard-container {
+      flex-direction: column;
+  }
+  .left-box {
+      font-size: 17px;
+      margin-left: 0px;
+  }
+  .left-box,
+  .right-box {
+      margin-top: 0px;
+      width: 100%;
+  }
+}
+
+.small-box {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.small-box i {
+  font-size: 3em;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+.small-box h3 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.small-box p {
+  font-size: 1.2em;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .small-box {
+      margin-bottom: 0;
+  }
+}
+
+.Our {
+  color: blue;
+  font-weight: b;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Para {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-info:hover {
+  background-color: #46b8da;
+}
+
+.doctor-profile {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: px;
+  padding: 20px;
+}
+
+.meet-doctors-section {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.meet-doctors-section h2 {
+  font-size: 28px;
+  color: blue;
+}
+
+.meet-doctors-section p {
+  font-size: 16px;
+  color: blue;
+}
+
+.Doctors-Area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Rowdies', sans-serif;
+}
+
+.Doctors-Area h1 {
+  font-size: 50px;
+  color: blue;
+  margin-bottom: 20px;
+  border-bottom: 7px solid blue;
+  padding-bottom: 10px;
+}
+
+.expertise {
+  display: flex;
+}
+
+.left-expertise {
+  order: 1;
+}
+
+.right-expertise {
+  order: 2;
+}
+
+.left-expertise, .right-expertise {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .expertise {
+      flex-direction: column;
+  }
+
+  .left-expertise, .right-expertise {
+      width: 100%;
+  }
+}
+
+.expertise {
+  display: flex;
+}
+
+.left-expertise {
+  /* Your styles for the left side */
+}
+
+.right-expertise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  width: calc(50% - 10px);
+  min-height: 200px;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.box i.icon-blue {
+  color: #fff;
+  font-size: 36px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.box h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.know {
+  display: inline-block;
+  padding: 20px 40px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.know:hover {
+  background-color: #000;
+}
+
+@media (max-width: 767px) {
+  .know {
+      display: block;
+      margin: 0 auto;
+  }
+}
+
+.btn-find {
+  background-color: white;
+  color: #007bff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.btn-read {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.btn-find:hover {
+  border: 2px solid white;
+  background-color: transparent;
+}
+
+.btn-read:hover {
+  background-color: #f8f9fa;
+  color: #0056b3;
+}
+
+@media (max-width: 767px) {
+  .btn-find,
+  .btn- {
+      font-size: 13px;
+      display: inline-block;
+      width: 48%;
+      margin-right: 4%;
+  }
+
+  .btn-secondary {
+      margin-right: 0;
+  }
+}

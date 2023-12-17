@@ -1,0 +1,88 @@
+/* Footer.css */
+
+/* General Styles */
+footer {
+  background-color: #333; /* Change to your preferred background color */
+  color: #fff; /* Change to your preferred text color */
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Enable content wrap on smaller screens */
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 20px; /* Add margin for better spacing on smaller screens */
+}
+
+/* Contact Us Section */
+.footer-section h3 {
+  color: #ff9900; /* Change to your preferred heading color */
+}
+
+.footer-section p {
+  color: #ccc; /* Change to your preferred text color */
+}
+
+/* Follow Us Section */
+.social-icons a {
+  display: block;
+  margin: 10px 0;
+  color: #fff; /* Change to your preferred icon color */
+  text-decoration: none;
+}
+
+/* Newsletter Section */
+.footer-section input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/* Support Section */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #555; /* Change to your preferred border color */
+}
+
+/* Copyright Section */
+.footer-bottom p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-bottom a {
+  color: #ff9900; /* Change to your preferred link color */
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  .footer-section {
+    flex-basis: 100%; /* Full width on smaller screens */
+  }
+}
+
+/* Footer.css */
+
+/* ... (previous styles) */
+
+/* Heart Icon Styles */
+.heart-icon {
+  color: #ff0000; /* Change to your preferred heart color */
+  font-size: 16px; /* Adjust the size of the heart */
+  vertical-align: middle;
+}
+
+/* ... (remaining styles) */

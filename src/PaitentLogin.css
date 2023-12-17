@@ -1,0 +1,57 @@
+/* PaitentLogin.css */
+
+/* Styles for larger screens */
+.patient-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('loginback.jpg') center/cover no-repeat; /* Updated to use loginback.jpg */
+  }
+  
+  .patient-login-card {
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent; /* Adjust the alpha (fourth value) for the background opacity */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px); /* Adjust the blur value as needed */
+  }
+  
+  .patient-login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .patient-login-input {
+    margin-bottom: 10px;
+  }
+  
+  .patient-login-error {
+    color: #dc3545; /* Bootstrap red color for danger */
+    font-size: 80%;
+  }
+  
+  .patient-login-button {
+    width: 100%;
+  }
+  
+  .patient-login-back-button {
+    width: 100%;
+  }
+  
+  /* Styles for smaller screens (mobile) */
+  @media (max-width: 767px) {
+    .patient-login-card {
+      width: 90%;
+      margin: 0 auto;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: rgba(253, 253, 253, 0.46); /* Adjust the opacity by changing the last value (0.3) */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      backdrop-filter: none; /* Adjust the blur value as needed */
+    }
+  }
+  
+  
